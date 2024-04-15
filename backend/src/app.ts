@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res, next) => {
-  res.status(200).send("Hello World");
+  res.status(200).send("Hello World omkar");
 });
 
 export default app;

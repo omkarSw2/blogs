@@ -2,15 +2,16 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "blog backend web app ",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": " nodemon index.ts"
+    "dev": "nodemon -x ts-node index.ts"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/omkarSw2/blogs.git"
   },
-  "author": " <omakr21143@gmail.com>",
+  "author": "Omkar <omakr21143@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/omkarSw2/blogs/issues"
@@ -19,13 +20,13 @@
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.21",
-    "@types/node": "^20.12.7",
-    "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "@types/node": "^20.12.7"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
 }
