@@ -15,8 +15,7 @@ export default function AboutPage() {
             </p>
             <Link
               to="/blogs"
-              className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-secondary text-secondary-foreground font-medium transition-colors hover:bg-secondary/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2"
-              prefetch={false}>
+              className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-secondary text-secondary-foreground font-medium transition-colors hover:bg-secondary/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2">
               Read More
             </Link>
           </div>
@@ -94,26 +93,22 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Link
                 href="#"
-                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors"
-                prefetch={false}>
+                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                 Technology
               </Link>
               <Link
                 href="#"
-                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors"
-                prefetch={false}>
+                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                 Business
               </Link>
               <Link
                 href="#"
-                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors"
-                prefetch={false}>
+                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                 Lifestyle
               </Link>
               <Link
                 href="#"
-                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors"
-                prefetch={false}>
+                className="bg-background text-muted-foreground rounded-md px-4 py-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                 Personal Development
               </Link>
             </div>

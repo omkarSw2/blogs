@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label";
 import { KeyRound } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export function SignUpPage() {
+export  default function SignUpPage() {
   return (
     <Card className="mx-auto max-w-sm  md:my-5">
       <CardHeader>

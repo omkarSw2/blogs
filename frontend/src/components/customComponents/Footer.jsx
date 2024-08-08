@@ -8,7 +8,7 @@ function Footer() {
     <footer className="bg-muted py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-start gap-4">
-          <Link className="flex items-center gap-2" prefetch={false}>
+          <Link className="flex items-center gap-2" >
             <FeatherIcon className="w-6 h-6" />
             <span className="text-xl font-bold">Blog Name</span>
           </Link>
@@ -22,19 +22,19 @@ function Footer() {
             <Link
               to="/about"
               className="text-sm hover:underline"
-              prefetch={false}>
+              >
               About
             </Link>
             <Link
               to="/contact"
               className="text-sm hover:underline"
-              prefetch={false}>
+              >
               Contact
             </Link>
             <Link
               to="/privacy-policy"
               className="text-sm hover:underline"
-              prefetch={false}>
+              >
               Privacy Policy
             </Link>
           </div>
@@ -43,17 +43,17 @@ function Footer() {
             <div className="flex gap-2">
               <Link
                 className="text-muted-foreground hover:text-foreground"
-                prefetch={false}>
+                >
                 <Twitter className="w-5 h-5" />
               </Link>
               <Link
                 className="text-muted-foreground hover:text-foreground"
-                prefetch={false}>
+                >
                 <Facebook className="w-5 h-5" />
               </Link>
               <Link
                 className="text-muted-foreground hover:text-foreground"
-                prefetch={false}>
+                >
                 <Instagram className="w-5 h-5" />
               </Link>
             </div>
@@ -71,7 +71,7 @@ function Footer() {
           </form>
           <p className="text-xs text-muted-foreground">
             By subscribing, you agree to our{" "}
-            <Link className="underline" prefetch={false}>
+            <Link className="underline" >
               Terms of Service
             </Link>
             .

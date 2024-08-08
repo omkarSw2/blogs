@@ -23,10 +23,10 @@ function PriceCard({ title, desc, specs, price, priceInfo }) {
           <p className="text-muted-foreground">{priceInfo}</p>
         </div>
         <ul className="grid gap-2 text-sm">
-          {specs?.map((spec) => (
+          {specs?.map((spec, ind) => (
             <li
               className="flex items-center gap-2 text-muted-foreground"
-              key={spec.id}>
+              key={ind}>
               <Check className="h-4 w-4 fill-primary" />
               {spec}
             </li>
@@ -43,7 +43,6 @@ function PriceCard({ title, desc, specs, price, priceInfo }) {
 export default PriceCard;
 PriceCard.propTypes = {
   title: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired,
   specs: PropTypes.arrayOf(PropTypes.string).isRequired,
   price: PropTypes.number.isRequired,
   desc: PropTypes.string.isRequired,

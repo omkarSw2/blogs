@@ -1,4 +1,4 @@
-import PriceCard from "@/components/customeComponents/PriceCard";
+import PriceCard from "@/components/customComponents/PriceCard";
 
 const plan = [
   {
@@ -39,7 +39,7 @@ const plan = [
 
 function PricingPage() {
   return (
-    <section className="w-full py-12 md:py-16 lg:py-20">
+    <section className="w-full  py-12 md:py-16 lg:py-20 ">
       <div className="container grid gap-8 px-4 md:px-6">
         <div className="grid gap-2 text-center">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">

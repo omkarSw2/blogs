@@ -6,7 +6,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import SecondaryBlogCard from "@/components/customeComponents/SecondaryBlogCard";
+import SecondaryBlogCard from "@/components/customComponents/SecondaryBlogCard";
 
 const blogArray = [
   {
@@ -72,9 +72,9 @@ const blogArray = [
 ];
 function Blogs() {
   return (
-    <div className="w-full">
+    <div className="container">
       <header className="bg-primary py-12 px-4 md:px-6 lg:px-8">
-        <div className="container mx-auto max-w-5xl">
+        <div className=" mx-auto max-w-5xl container">
           <h1 className="text-4xl font-bold text-primary-foreground md:text-5xl">
             Our Latest Blogs
           </h1>

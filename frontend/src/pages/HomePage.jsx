@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import PrimaryBlogCard from "@/components/customeComponents/PrimaryBlogCard";
-import RecentPost from "@/components/customeComponents/RecentPost";
+import PrimaryBlogCard from "@/components/customComponents/PrimaryBlogCard";
+import RecentPost from "@/components/customComponents/RecentPost";
 
 const secondArr = [
   {
@@ -61,7 +61,7 @@ const primaryArr = [
 
 function HomePage() {
   return (
-    <div className="bg-background text-foreground">
+    <div className=" bg-background text-foreground ">
       <header className="bg-primary text-primary-foreground py-12 md:py-20">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -73,7 +73,9 @@ function HomePage() {
                 Explore our collection of thought-provoking articles and stay
                 ahead of the curve.
               </p>
-              <Link to='/blogs' className="inline-flex items-center justify-center rounded-md bg-secondary px-6 py-3 text-sm font-medium text-secondary-foreground transition-colors hover:bg-secondary/90 focus:outline-none focus:ring-1 focus:ring-secondary focus:ring-offset-1">
+              <Link
+                to="/blogs"
+                className="inline-flex items-center justify-center rounded-md bg-secondary px-6 py-3 text-sm font-medium text-secondary-foreground transition-colors hover:bg-secondary/90 focus:outline-none focus:ring-1 focus:ring-secondary focus:ring-offset-1">
                 Blog&apos;s
               </Link>
             </div>

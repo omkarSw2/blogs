@@ -1,5 +1,5 @@
-import Footer from "@/components/customeComponents/Footer";
-import Navbar from "@/components/customeComponents/Navbar";
+import Footer from "@/components/customComponents/Footer";
+import Navbar from "@/components/customComponents/Navbar";
 import { Outlet } from "react-router-dom";
 
 function LandingPage() {

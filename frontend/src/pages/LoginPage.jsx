@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Link } from "react-router-dom";
 
-export function LoginPage() {
+export default function LoginPage() {
   return (
     <div className="w-full lg:grid lg:min-h-[400px] lg:grid-cols-2 xl:min-h-[600px] ">
       <div className="flex items-center justify-center py-12">

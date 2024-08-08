@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Link, NavLink } from "react-router-dom";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetFooter,
@@ -35,11 +36,17 @@ function Navbar() {
             <FeatherIcon className="h-6 w-6 text-primary" />
           </SheetHeader>
           <SheetDescription>
-            <Button
-              variant="ghost"
-              className=" flex flex-col gap-2 w-full justify-center items-center hover:text-primary text-2xl mt-4 ">
-              omkar{" "}
-            </Button>
+            <SheetClose asChild htmlFor="linkBlog">
+              <Link to={"/blogs"}>
+                <Button
+                  id="linkBlog"
+                  variant="ghost"
+                  className=" flex flex-col gap-2 w-full justify-center items-center hover:text-primary text-2xl mt-4 ">
+                  {" "}
+                  Blog&apos;s
+                </Button>
+              </Link>
+            </SheetClose>
             <Button
               variant="ghost"
               className=" flex flex-col gap-2 w-full justify-center items-center hover:text-primary text-2xl  mt-4">
